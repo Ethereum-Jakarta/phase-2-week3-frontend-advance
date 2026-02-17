@@ -8,12 +8,41 @@
 
 Materi belajar — baca dan praktekin sebelum ngerjain quest/quiz.
 
+### Day 1-2: Advanced Hooks
+
 | # | Topic | File |
 |---|-------|------|
-| 01 | Vite + TypeScript + Tailwind Setup | [study-material/01-vite-setup.md](study-material/01-vite-setup.md) |
-| 02 | useRef Deep Dive | [study-material/02-useref-deep-dive.md](study-material/02-useref-deep-dive.md) |
-| 03 | useContext Deep Dive | [study-material/03-usecontext-deep-dive.md](study-material/03-usecontext-deep-dive.md) |
-| 04 | useCallback & useMemo | [study-material/04-usecallback-usememo.md](study-material/04-usecallback-usememo.md) |
+| 01 | Vite — Build Tool yang Bikin CRA Pensiun | [study-material/01-vite-setup.md](study-material/01-vite-setup.md) |
+| 02 | useRef Deep Dive — DOM Manipulation Tanpa Re-render | [study-material/02-useref-deep-dive.md](study-material/02-useref-deep-dive.md) |
+| 03 | useContext Deep Dive — Global State Tanpa Props Drilling | [study-material/03-usecontext-deep-dive.md](study-material/03-usecontext-deep-dive.md) |
+| 04 | useCallback & useMemo — Performance Optimization | [study-material/04-usecallback-usememo.md](study-material/04-usecallback-usememo.md) |
+| 05 | useReducer — Ketika useState Udah Nggak Cukup | [study-material/05-usereducer.md](study-material/05-usereducer.md) |
+
+### Day 2-3: Patterns & Custom Hooks
+
+| # | Topic | File |
+|---|-------|------|
+| 06 | Advanced Component Patterns — Bikin Component Kayak Pro | [study-material/06-advanced-patterns.md](study-material/06-advanced-patterns.md) |
+| 07 | Custom Hooks — Bikin Toolkit Sendiri | [study-material/07-custom-hooks.md](study-material/07-custom-hooks.md) |
+| 08 | React Performance — Dari 47 Re-renders ke 2 | [study-material/08-react-performance.md](study-material/08-react-performance.md) |
+
+### Day 3-4: TanStack Ecosystem
+
+| # | Topic | File |
+|---|-------|------|
+| 09 | TanStack Query — Server State Management yang Bener | [study-material/09-tanstack-query.md](study-material/09-tanstack-query.md) |
+| 10 | TanStack Router — Type-Safe Routing yang Next Level | [study-material/10-tanstack-router.md](study-material/10-tanstack-router.md) |
+| 11 | TanStack Table — Data Table yang Production-Ready | [study-material/11-tanstack-table.md](study-material/11-tanstack-table.md) |
+| 12 | TanStack Form — Form Management yang Gak Bikin Pusing | [study-material/12-tanstack-form.md](study-material/12-tanstack-form.md) |
+
+### Day 4-5: Production Tools
+
+| # | Topic | File |
+|---|-------|------|
+| 13 | Redux Toolkit — State Management yang Scalable | [study-material/13-redux-toolkit.md](study-material/13-redux-toolkit.md) |
+| 14 | Cypress — E2E Testing yang Bikin Tidur Nyenyak | [study-material/14-cypress-testing.md](study-material/14-cypress-testing.md) |
+| 15 | Stripe + Clerk — Payment & Auth Production-Ready | [study-material/15-stripe-clerk.md](study-material/15-stripe-clerk.md) |
+| 16 | Soft Skill: Code Review Culture | [study-material/16-sk-code-review.md](study-material/16-sk-code-review.md) |
 
 ---
 
@@ -52,7 +81,19 @@ phase-2-week3-frontend-advance/
 │   ├── 01-vite-setup.md
 │   ├── 02-useref-deep-dive.md
 │   ├── 03-usecontext-deep-dive.md
-│   └── 04-usecallback-usememo.md
+│   ├── 04-usecallback-usememo.md
+│   ├── 05-usereducer.md
+│   ├── 06-advanced-patterns.md
+│   ├── 07-custom-hooks.md
+│   ├── 08-react-performance.md
+│   ├── 09-tanstack-query.md
+│   ├── 10-tanstack-router.md
+│   ├── 11-tanstack-table.md
+│   ├── 12-tanstack-form.md
+│   ├── 13-redux-toolkit.md
+│   ├── 14-cypress-testing.md
+│   ├── 15-stripe-clerk.md
+│   └── 16-sk-code-review.md
 ├── arcane-quest/
 │   ├── aq-01-dashboard.md
 │   ├── aq-02-ecommerce.md
@@ -69,15 +110,18 @@ phase-2-week3-frontend-advance/
 
 ## 🛤️ Recommended Order
 
-1. **Baca study material** (Day 1-2)
+1. **Study material 01-05** — Hooks fundamentals (Day 1-2)
 2. **Kerjain quiz-hooks** — latihan hooks fundamentals
-3. **Kerjain quiz-patterns** — latihan React patterns
-4. **AQ-01 Dashboard** — apply TanStack stack
-5. **AQ-03 Messenger** — learn WebSocket
-6. **quiz-performance** — optimize skills
-7. **AQ-02 Marketplace** — BOSS QUEST, butuh waktu paling lama
-8. **AQ-04 Guild Board** — group project, parallel sama yang lain
-9. **AQ-05 Ujian** — final exam, semua materi
+3. **Study material 06-08** — Patterns & performance
+4. **Kerjain quiz-patterns** — latihan React patterns
+5. **Study material 09-12** — TanStack ecosystem
+6. **AQ-01 Dashboard** — apply TanStack stack
+7. **AQ-03 Messenger** — learn WebSocket
+8. **quiz-performance** — optimize skills
+9. **Study material 13-16** — Redux, testing, payments, code review
+10. **AQ-02 Marketplace** — BOSS QUEST, butuh waktu paling lama
+11. **AQ-04 Guild Board** — group project, parallel sama yang lain
+12. **AQ-05 Ujian** — final exam, semua materi
 
 ---
 
