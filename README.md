@@ -1,0 +1,125 @@
+# ⚡ Phase 2 — Week 3: Frontend Advance
+
+> *"Minggu terakhir Phase 2. Semua yang kalian pelajari di Week 1 dan 2, kita gabungin dan push ke level berikutnya."*
+
+---
+
+## 📚 Study Material
+
+Materi belajar — baca dan praktekin sebelum ngerjain quest/quiz.
+
+| # | Topic | File |
+|---|-------|------|
+| 01 | Vite + TypeScript + Tailwind Setup | [study-material/01-vite-setup.md](study-material/01-vite-setup.md) |
+| 02 | useRef Deep Dive | [study-material/02-useref-deep-dive.md](study-material/02-useref-deep-dive.md) |
+| 03 | useContext Deep Dive | [study-material/03-usecontext-deep-dive.md](study-material/03-usecontext-deep-dive.md) |
+| 04 | useCallback & useMemo | [study-material/04-usecallback-usememo.md](study-material/04-usecallback-usememo.md) |
+
+---
+
+## ⚔️ Arcane Quests
+
+Project-based challenges. Ini yang bikin portfolio kalian standout.
+
+| # | Quest | Type | File |
+|---|-------|------|------|
+| 01 | 📊 **Arcane Dashboard** — Analytics dashboard (TanStack Query + Table + Router) | Solo | [arcane-quest/aq-01-dashboard.md](arcane-quest/aq-01-dashboard.md) |
+| 02 | 🛒 **Arcane Marketplace** — E-commerce (Stripe + Clerk + Zustand) | Solo (BOSS) | [arcane-quest/aq-02-ecommerce.md](arcane-quest/aq-02-ecommerce.md) |
+| 03 | 💬 **Arcane Messenger** — Real-time chat (WebSocket/Socket.io) | Solo | [arcane-quest/aq-03-realtime-chat.md](arcane-quest/aq-03-realtime-chat.md) |
+| 04 | 🏰 **Arcane Guild Board** — Team dashboard (Group 3-4) | Group | [arcane-quest/aq-04-group-project.md](arcane-quest/aq-04-group-project.md) |
+| 05 | 🧪 **Week 3 UJIAN** — 8 coding challenges | Exam | [arcane-quest/aq-05-ujian.md](arcane-quest/aq-05-ujian.md) |
+
+---
+
+## 🧩 Quizzes
+
+Latihan soal dengan starter code + test cases. Kerjain semua sebelum ujian.
+
+| # | Quiz | Challenges | Difficulty | File |
+|---|------|-----------|------------|------|
+| 01 | 🪝 **Advanced Hooks** — useRef, useContext, useCallback, useMemo, useReducer | 8 soal | 🔴 HARD | [quiz/quiz-hooks.md](quiz/quiz-hooks.md) |
+| 02 | 🧩 **React Patterns** — Compound components, render props, HOC, custom hooks | 5 soal | 🔴 HARD | [quiz/quiz-patterns.md](quiz/quiz-patterns.md) |
+| 03 | ⚡ **Performance** — Optimization, fix buggy slow code, measure rerenders | 5 soal | 🔴 HARD | [quiz/quiz-performance.md](quiz/quiz-performance.md) |
+
+---
+
+## 🗂️ Folder Structure
+
+```
+phase-2-week3-frontend-advance/
+├── README.md                          ← You are here
+├── study-material/
+│   ├── 01-vite-setup.md
+│   ├── 02-useref-deep-dive.md
+│   ├── 03-usecontext-deep-dive.md
+│   └── 04-usecallback-usememo.md
+├── arcane-quest/
+│   ├── aq-01-dashboard.md
+│   ├── aq-02-ecommerce.md
+│   ├── aq-03-realtime-chat.md
+│   ├── aq-04-group-project.md
+│   └── aq-05-ujian.md
+└── quiz/
+    ├── quiz-hooks.md
+    ├── quiz-patterns.md
+    └── quiz-performance.md
+```
+
+---
+
+## 🛤️ Recommended Order
+
+1. **Baca study material** (Day 1-2)
+2. **Kerjain quiz-hooks** — latihan hooks fundamentals
+3. **Kerjain quiz-patterns** — latihan React patterns
+4. **AQ-01 Dashboard** — apply TanStack stack
+5. **AQ-03 Messenger** — learn WebSocket
+6. **quiz-performance** — optimize skills
+7. **AQ-02 Marketplace** — BOSS QUEST, butuh waktu paling lama
+8. **AQ-04 Guild Board** — group project, parallel sama yang lain
+9. **AQ-05 Ujian** — final exam, semua materi
+
+---
+
+## ⚙️ Tech Stack Week 3
+
+- **Vite + React + TypeScript** (semua project)
+- **Tailwind CSS** (styling)
+- **TanStack Query / Table / Router**
+- **Zustand** (state management)
+- **Socket.io** (real-time)
+- **Clerk** (auth)
+- **Stripe** (payments)
+- **Recharts** (charts)
+- **Vercel** (deployment)
+
+---
+
+## Cara Pengerjaan & Submit Tugas
+
+> Kalian udah pernah ngerjain flow ini di Phase 0-1, jadi harusnya udah familiar. Tapi gua tulis lagi biar gak ada yang bingung.
+
+**Kalian akan melakukan Fork & PR ulang untuk setiap week karena ETHJKT memisahkan 1 Repo = 1 Week.**
+
+### Flow Pengerjaan
+
+1. **Fork** repo ini ke GitHub account kalian
+2. **Clone** fork kalian ke local
+3. Kerjain study materials, quizzes, dan arcane quests
+4. **Commit** progress kalian (wajib push minimal 1 commit per hari!)
+5. **Push** ke fork kalian
+6. **Create Pull Request** ke repo ETHJKT ini
+7. Mentor akan review lewat PR comments
+8. Untuk pengerjaan selanjutnya, tinggal commit & push aja — PR otomatis ke-update
+
+### Rules Submission
+
+- 📝 Isi judul PR dengan **username/nama kalian**
+- 📅 Wajib push **minimal 1 commit per hari**
+- 🧹 Code harus **clean, typed (TypeScript), dan well-commented**
+- 📬 Semua submission via **Pull Request**
+- 🚀 Deploy setiap Arcane Quest ke **Vercel**
+
+---
+
+**Let's finish Phase 2 strong, Arcanists! 🔥⚡**
